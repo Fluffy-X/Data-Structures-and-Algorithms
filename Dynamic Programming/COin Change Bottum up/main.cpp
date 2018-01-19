@@ -33,9 +33,5 @@ int main()
     int n = 10;
     vector<int> v = {2,5,3,6};
     cout << coin_change_ways(v,n);
-
-
-
-
     return 0;
 }
