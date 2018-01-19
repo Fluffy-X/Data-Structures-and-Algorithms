@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # depslib dependency file v1.0
 1514010428 source:c:\users\rahul\desktop\4-1\adventures\graphs\dfs\main.cpp
 	<iostream>
@@ -7,3 +8,14 @@
 	<iostream>
 	<vector>
 
+=======
+# depslib dependency file v1.0
+1514010428 source:c:\users\rahul\desktop\4-1\adventures\graphs\dfs\main.cpp
+	<iostream>
+	<vector>
+
+1516281070 source:c:\users\rahul\desktop\4-1\adventures\graphs\2 edge connectivity in undirected graph and topological sorting\main.cpp
+	<iostream>
+	<vector>
+
+>>>>>>> 809b7f018bed7c1396e0b7468538907694cff57c

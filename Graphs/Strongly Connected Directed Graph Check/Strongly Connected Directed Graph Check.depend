@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 # depslib dependency file v1.0
 1516351383 source:c:\users\rahul\desktop\4-1\adventures\git\graphs\strongly connected directed graph check\main.cpp
 	<iostream>
 	<vector>
 
+=======
+# depslib dependency file v1.0
+1516351383 source:c:\users\rahul\desktop\4-1\adventures\git\graphs\strongly connected directed graph check\main.cpp
+	<iostream>
+	<vector>
+
+>>>>>>> 809b7f018bed7c1396e0b7468538907694cff57c
