@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1510996046 source:c:\users\rahul\desktop\4-1\adventures\graphs\kruskal\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<algorithm>
+

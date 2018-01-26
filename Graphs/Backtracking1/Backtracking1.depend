@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1513366630 source:c:\users\rahul\desktop\4-1\adventures\graphs\backtracking1\main.cpp
+	<iostream>
+	<list>
+	<queue>
+	<vector>
+	<utility>
+	<algorithm>
+

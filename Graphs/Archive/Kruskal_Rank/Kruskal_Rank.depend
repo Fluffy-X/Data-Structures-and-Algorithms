@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1511088830 source:c:\users\rahul\desktop\4-1\adventures\graphs\kruskal_rank\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<algorithm>
+
