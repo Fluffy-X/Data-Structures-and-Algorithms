@@ -71,6 +71,6 @@ int range_min(int i, int j, int a, int b, int index, vector<int> &seg)
 int main()
 {
     vector<int> arr = {1,-7,3,4,5};
-    create_segment_tree(arr,1,4);
+    create_segment_tree(arr,,4);
     return 0;
 }

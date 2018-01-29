@@ -1,3 +1,4 @@
+// O(n^2lgn), Bad Solution
 #include <bits/stdc++.h>
 using namespace std;
 int range_min(int i, int j, int a, int b, int index, vector<int> &seg);
