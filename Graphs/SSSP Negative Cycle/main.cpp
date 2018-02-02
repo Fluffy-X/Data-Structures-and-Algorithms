@@ -17,15 +17,19 @@ public:
 };
 void Graph::bellman(int source)
 {
+
     sshp[source]= 0;
-    for(int i=0; i<V; i++)
+    for(int j=0; j<V-1; j++)
     {
-        for(auto itr=adj[i].begin(); itr!=adj[i].end(); itr++)
+        for(int i=0; i<V; i++)
         {
-            sshp[itr->first] = min(sshp[itr->first], sshp[i]+itr->second);
+            for(auto itr=adj[i].begin(); itr!=adj[i].end(); itr++)
+            {
+                sshp[itr->first] = min(sshp[itr->first], sshp[i]+itr->second);
+            }
         }
     }
-    /*for(int i=0; i<V; i++)
+    for(int i=0; i<V; i++)
     {
         for(auto itr=adj[i].begin(); itr!=adj[i].end(); itr++)
         {
@@ -36,7 +40,7 @@ void Graph::bellman(int source)
     if(cycle==0)
         cout << "No negative cycle" << endl;
     else
-        cout << "Negative Cycle Exists" << endl;*/
+        cout << "Negative Cycle Exists" << endl;
 }
 void Graph::shortestpathstack(int source)
 {
