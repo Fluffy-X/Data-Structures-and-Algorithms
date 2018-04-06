@@ -42,7 +42,7 @@ int minimum_cut(string s, vector<int> *memo)
 }
 int main()
 {
-    string s = "abaababbbabbabaabaababbbabbabababbbabbababababbbabbababa";
+    string s = "aaabba";
     all_palindromic_substring(s);
     return 0;
 }
