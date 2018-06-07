@@ -83,12 +83,9 @@ void Segment_Tree::update_value(int index)
 int main()
 {
     //cout << "Boo" ;
-    vector<int> v = {1,3,4,2,-1};
+    vector<int> v = {1,3,-2,2,-1};
     Segment_Tree s(v);
     //s.print();
-    cout << s.pre_range_query(2,4) << endl;
-    s.pre_update_value(2,-2);
-    //s.print();
-    cout << s.pre_range_query(2,4);
+    cout << s.pre_range_query(2,1) << endl;
     return 0;
 }
