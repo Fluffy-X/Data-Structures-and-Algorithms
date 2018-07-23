@@ -9,8 +9,7 @@ void update(vector<vector<int> >& m, int r, int c)
     int c1 = 0, r1 = 0;
     if(c < 3 && r < 3)
     {
-        for(c1 = 0 ; c1 < 9 ; c1++)
-        {
+        for(c1 = 0 ; c1 < 9 ; c1++) {
             m[r][c1] = 1;
         }
         for(r1 = 0 ; r1 < 9 ; r1++)
